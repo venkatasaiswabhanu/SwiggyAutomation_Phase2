@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-17T16:13:58 IST" name="Suite" finished-at="2022-03-17T16:14:27 IST" duration-ms="28997">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.testscripts.TestRunner@765f05af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-17T16:13:58 IST" name="Test" finished-at="2022-03-17T16:14:27 IST" duration-ms="28997">
+      <class name="com.swiggy.testscripts.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.swiggy.testscripts.TestRunner@765f05af]" started-at="2022-03-17T16:13:58 IST" name="setUpClass" finished-at="2022-03-17T16:13:58 IST" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21a9a705]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.testscripts.TestRunner@765f05af]" started-at="2022-03-17T16:13:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-17T16:14:27 IST" duration-ms="28726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Choosing Location and Ordering Cashew Special Fried Rice from Udipi Akshaya Grand"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[A user should be able to select his location and order food from any of his nearest restaurants]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.swiggy.testscripts.TestRunner@765f05af]" started-at="2022-03-17T16:14:27 IST" name="tearDownClass" finished-at="2022-03-17T16:14:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.swiggy.testscripts.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
