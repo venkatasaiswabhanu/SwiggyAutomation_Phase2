@@ -9,17 +9,29 @@ Steps Performed :
 3. Add the following Dependencies in POM.xml : 
 
 Cucumber core
+
 Cucumber java
+
 Cucumber -Testng
+
 Cucumber jvm deps
+
 Cucumber Reporting
+
 Gherkin
+
 Testng
+
 jcommander
+
 Selenium java 3.141.59
+
 Extent Reports
+
 Log4j-api
+
 Log4j-core
+
 Log4j-api
 
 4. Create Folder with name Feature and create a file "OrderingFood.feature" 
@@ -36,18 +48,30 @@ below
 
 Feature: A user should be able to select his location and order food from any of his nearest 
 restaurants
+
 Scenario: Choosing Location and Ordering Cashew Special Fried Rice from Udipi Akshaya 
 Grand
+
 Given A User is On Landing Page of Swiggy
+
 When he click on link text Eluru
+
 And it will display main page
+
 When user click location tab and pass "Eluru" it will display all the restaurants in Eluru
+
 When user clicks on Search icon and pass "CashewBiryani" and search
+
 And select first available item in suggesion box
+
 When User navigate to dishes icon
+
 And add Cashew Special Fried Rice to cart it will added to cart
+
 When user click on cart icon
+
 Then he has verify the "SECURE CHECKOUT" Text in cart
+
 Note: I can order any delicious Cashew biryani from the swiggy suggession in that particular 
 time.
 
